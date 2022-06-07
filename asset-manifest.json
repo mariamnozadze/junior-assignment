@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/junior-test/static/css/main.dc7d7830.css",
+    "main.js": "/junior-test/static/js/main.6d0de06b.js",
+    "index.html": "/junior-test/index.html",
+    "main.dc7d7830.css.map": "/junior-test/static/css/main.dc7d7830.css.map",
+    "main.6d0de06b.js.map": "/junior-test/static/js/main.6d0de06b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc7d7830.css",
+    "static/js/main.6d0de06b.js"
+  ]
+}
