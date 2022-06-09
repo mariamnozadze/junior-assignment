@@ -1,13 +1,19 @@
 import React from "react";
 import "./assets/index.css";
-// import Header from "./Components/Header/Header";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import ProductList from "./Components/ProductList/ProductList";
+import ProductForm from "./Components/ProductForm/ProductForm";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <ProductList />
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/"  element={<ProductList />} />
+          <Route path="/ProductForm" element={<ProductForm />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

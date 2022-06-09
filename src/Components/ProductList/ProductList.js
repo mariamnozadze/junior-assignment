@@ -1,14 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../assets/index.css";
 import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
+import Header from "../Header/homeHeader";
 import productData from "./data";
 
 const ProductList = () => {
-    const [data, setData] = useState(productData);
 
   return (
-    <div>
+    <div className="app">
       <Header />
       <div class="product-list">
         {productData.map((dataItem) => {
