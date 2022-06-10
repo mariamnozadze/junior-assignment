@@ -11,7 +11,7 @@ const ProductFormHeader = () => {
           <button type="button" class="product-btn" id="save-product-btn">
             Save
           </button>
-          <Link to="/ProductList">
+          <Link to="/junior-assignment/">
             <button type="button" class="product-btn" id="cancel-product-btn">
               Cancel
             </button>
