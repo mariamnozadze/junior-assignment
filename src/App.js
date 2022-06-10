@@ -9,12 +9,12 @@ const App = () => {
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/"  element={<ProductList />} />
+          <Route path="/junior-assignment" element={<ProductList />} />
           <Route path="/ProductForm" element={<ProductForm />} />
         </Routes>
       </div>
     </Router>
   );
-}
+};
 
 export default App;
