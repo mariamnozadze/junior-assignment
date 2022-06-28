@@ -1,5 +1,6 @@
 import React from "react";
 import "../../assets/index.css";
+import ProductType from "../productType/ProductType";
 import ProductFormHeader from "./ProductFormHeader";
 // import Footer from "../Footer/Footer"
 
@@ -22,24 +23,8 @@ const ProductForm = () => {
           Price
         </label>
         <input id="price" type="text" />
-
-        <label for="typeSwitcher" id="typeSwitcher">Type Switcher:</label>
-        <select id="productType" name="productType">
-        <option value="-" id="-" disabled>
-            -
-          </option>
-          <option value="DVD" id="DVD">
-            DVD
-          </option>
-          <option value="Furniture" id="Furniture">
-            Furniture
-          </option>
-          <option value="book" id="Book">
-            Book
-          </option>
-        </select>
+        <ProductType />
       </form>
-      
     </div>
   );
 };

@@ -194,7 +194,7 @@ header section
 product form 
 -----
 */
-#product_form {
+#product_form{
   display: grid;
   grid-template-columns: 200px 1fr;
   grid-gap: 16px;
@@ -210,19 +210,30 @@ product form
   font-size: 1.2rem;
 }
 
-#product_form input {
+#product_form input,
+#product_form select {
   grid-column: 2 / 3;
   padding: 0.6rem;
 }
 
-#product_form select {
-  padding: 0.7rem;
-  width: 130px;
+.product_type_switcher,
+.product_size_box
+{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-gap: 16px;
+  max-width: 600px;
+  align-items: center;
 }
 
-/* @media (min-width: 400px) {
-  #product_form {
-    grid-template-columns: 200px 1fr;
-    grid-gap: 16px;
-  }
-} */
+.furniture_dimensions input {
+  margin: 10px 0;
+}
+
+.product_size_desc {
+  width: 100%;
+  font-size: .9rem;
+  font-style: italic;
+  text-align: center;
+  margin: 15px 74px;
+}
